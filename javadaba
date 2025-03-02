@@ -75,7 +75,8 @@
     <script>
         const canvas = document.getElementById("board");
         const ctx = canvas.getContext("2d");
-        const socket = new WebSocket("wss://SEU_SERVIDOR_AQUI");
+        // Aqui é onde você coloca a URL do seu WebSocket
+        const socket = new WebSocket("wss://SEU_SERVIDOR_AQUI"); // Não se esqueça de substituir SEU_SERVIDOR_AQUI com o seu URL do WebSocket real
         const usernameInput = document.getElementById("username");
         const textColorSelect = document.getElementById("textColor");
         const stickerColorSelect = document.getElementById("stickerColor");
